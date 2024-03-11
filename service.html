@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book A Service</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="mainservice">
+            <img src="https://media1.giphy.com/media/UkywKrH8teJYA/giphy.gif" alt="" class="servicepic">
+        </div>
+        <br>
+        <div class="servicebody">
+            <h1>Book a service with us!</h1>
+        
+        <div class="chooseservice">
+            <label for="service">Choose a Service:</label>
+            <select name="service" id="service">
+                <option value="makeover">Make Over</option>
+                <option value="nail">New Nail set</option>
+                <option value="nailset">Nail Refill</option>
+                <option value="spa">Spa Treatments</option>
+                <option value="hair">Haircuts</option>
+                <option value="dyehair">Hair Color</option>
+            </select>
+        </div>
+        <br>
+        <div class="serviceDate">
+            <label for="date">Select a Date</label>
+            <input type="datetime-local" name="date" id="date">
+        </div>
+        <br>
+        <div class="serviceTime">
+            <label for="serviceTime">Select a Time</label>
+            <input type="time" name="time" id="time">
+        </div>
+        <br>
+        <div class="location">
+            <label for="location">Store Location</label>
+            <input type="text" name="location" id="location">
+        </div>
+        <br>
+        <div class="email">
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="Email Address"name="email" id="email">
+            
+        </div>
+        <br>
+            <a href="index.html">
+            <button>Book Now!</button>
+            </a>
+            <br>
+        </div>
+        <br>
+        <div class="storetable">
+            <table>
+                <tr>
+                    <th>New York Stores</th>
+                    <th>LA Stores</th>
+                    <th>Miami Stores</th>
+                </tr>
+                <tr>
+                    <td>26 CottonCandy Road</td>
+                    <td>33 Ice Cream Harbor</td>
+                    <td>172 JellyBean Ave</td>
+                </tr>
+                <tr>
+                    <td>126 Gumdrop St</td>
+                    <td>17 Lolipop Rd</td>
+                    <td>68 Caramel Boulevard</td>
+                </tr>
+    
+            </table>
+        </div>
+        
+    
+        <script src="app.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(234, 214, 252);
+}
+.navBar{
+    /* border: solid black; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white
+}
+.logo{
+    height: 100%;
+}
+.navtag{
+    /* border: solid black; */
+    width: 210px;
+    text-align: center;
+    font-size: 14pt;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navtag:hover{
+    background-color: rgb(235, 188, 245);
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16pt;
+}
+
+.icons{
+    /* border: solid red;  */
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.top{
+    /* border: solid blue; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background: url(https://cdni.iconscout.com/illustration/premium/thumb/woman-in-beauty-spa-8367709-6679885.png?f=webp) no-repeat;
+    background-size: 50%;
+    background-position: 95%;
+    
+}
+.title{
+    /* border: solid red; */
+    display: flex;
+    padding: 3em;
+    flex-direction: column;
+    width: 40%;
+    height:100%px;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.brandtitle{
+    color: rgb(60, 12, 60);
+}
+.branddes{
+    font-size: 17pt;
+    color: black;
+    /* border: solid yellow; */
+    /* background-color: plum;   */
+}
+.middle{
+    /* border: solid yellow; */
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.infobox{
+    /* border: solid black; */
+    height: 100%;
+    width: 30%;
+}
+.info1{
+    height:100%;
+    width: 100%;
+}
+.info2{
+    height:100%;
+    width: 100%;
+}
+.info3{
+    height:100%;
+    width: 100%;
+}
+.middle2{
+    /* border: solid orange; */
+    height: 265px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom{
+    /* border: solid pink; */
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+.subbox{
+    /* border: solid black; */
+    width: 350px;
+}
+.help{
+    /* border: solid black; */
+    width: 150px;
+    text-align:left;
+}
+.shop{
+    /* border: solid black; */
+    width: 150px;
+}
+/* ---------------login */
+body{
+    background-color: (234, 214, 252);
+}
+.registerbody{
+    display: flex;
+    justify-content: space-around;
+}
+.loginPage{
+    border: solid #000000;
+    padding: 1em;
+    width: 300px;
+    background-color: rgb(255, 184, 236);
+    border: transparent;
+    height: 380px;
+    box-shadow: 10px 5px 5px rgb(118, 27, 72);
+}
+.loginPic{
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+}
+.loginContainer{
+    /* border: solid red; */
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10%;
+}
+.registrationPage{
+    /* border: solid red; */
+    padding: 1em;
+    width: 450px;
+    background-color: rgb(255, 184, 236);
+    border: transparent;
+    height: 500px;
+    box-shadow: 10px 5px 5px rgb(118, 27, 72);
+}
+.regContainer{
+    /* border: solid red; */
+    text-align: center;
+    height: 450px;
+}
+.loginTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.regTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+/* -------------service pg */
+.servicebody{
+    text-align: center;
+}
+.mainservice{
+    /* border: solid black; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 400px;
+    border: solid black;
+}
+th,td{
+    border: 1px solid black;
+}
+.storetable{
+    display: flex;
+    justify-content: center;
+}
